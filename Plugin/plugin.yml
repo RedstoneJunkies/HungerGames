@@ -1,0 +1,11 @@
+name: HungerGames
+main: jamie.src.hungergames.HungerGames
+version: 1
+
+commands:
+    
+
+    Kit:
+        usage: /<command>      
+        aliases: [k]
+        description: Kit's For HungerGames
