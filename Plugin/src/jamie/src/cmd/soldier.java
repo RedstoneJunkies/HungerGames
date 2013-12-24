@@ -9,8 +9,7 @@ public class soldier extends SubCommand{
 
 	public void onCommand(Player p, String[] args) {
 	      PlayerInventory pi = (PlayerInventory) p.getInventory();
-	        if (!(p.hasPermission("soldier")));
-	        pi.addItem(new ItemStack(Material.STONE_SWORD));
+          pi.addItem(new ItemStack(Material.STONE_SWORD));
 
 	}
 	

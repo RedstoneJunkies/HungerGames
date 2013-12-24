@@ -11,11 +11,7 @@ public class Kit extends SubCommand{
 	
 
 	public void onCommand(Player p, String[] args) {
-		if (args.length == 0){
-		    
-		   
-		  MessageManager.getInstance().info(p,"Do a kit or do /kit list");
-	}
+
 	}
 	
 	

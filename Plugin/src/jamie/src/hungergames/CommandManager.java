@@ -31,8 +31,11 @@ public class CommandManager implements CommandExecutor {
         Player p = (Player) sender;
        
         if (cmd.getName().equalsIgnoreCase("kit")) {
-                if (args.length == 0) {
+                if (args.length == 0) {		
+        		    MessageManager.getInstance().info(p,"Do a kit or do /kit list");
+          	
                         for (SubCommand c : commands) {
+                        	
                                
                         }
                         return true;
